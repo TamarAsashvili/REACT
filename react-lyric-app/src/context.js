@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { isContext } from 'vm';
 import axios from 'axios';
 
 
@@ -17,7 +16,7 @@ export class Provider extends Component {
         }`
         )
         .then(res=> {
-            console.log(res.data);
+            // console.log(res.data);
             this.setState({ track_list: res.data.message.body.track_list });
         
         })
