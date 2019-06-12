@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: pink;
+  height: 100px;
+  color: rgb(170, 24, 24);
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mc {
+  background: greenyellow;
+}
+
+.footer {
+  background: yellow;
+  color: blue;
+  margin: 20px;
+}
